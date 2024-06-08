@@ -1,0 +1,106 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Form Styles */
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="time"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+/* Page-Specific Styles */
+.home {
+    text-align: center;
+}
+
+.predict {
+    text-align: center;
+}
+
+.predict a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.predict a:hover {
+    text-decoration: underline;
+}
+
+/* Center Heading */
+h1 {
+    text-align: center;
+}
+
+/* Style Prediction Text */
+.predict-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style Predict Link */
+.predict-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.predict-link:hover {
+    text-decoration: underline;
+}
