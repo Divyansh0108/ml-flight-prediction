@@ -21,7 +21,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository: git clone https://github.com/your_username/flight-price-prediction.git
 cd flight-price-prediction
-2. Install the required dependencies: pip install -r requirements.txt
+2. Install the required dependencies: ``` pip install -r requirements.txt ```
 3. Run the Flask application: python app.py
 4. Open your web browser and navigate to `http://localhost:5000` to access the web application.
 
